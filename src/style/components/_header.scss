@@ -1,7 +1,7 @@
 .header{
   display: grid;
   grid-template-columns: 33% 33% 33%;
-// background-color: red;
+
 padding: 15px 50px;
 align-items: center;
 img{
@@ -16,6 +16,13 @@ img{
     align-items: center;
     li{
       margin: 0 10px;
+      font-weight: 600;
+    }
+  }
+  .logement{
+    .loge2{
+      font-weight: 200;
+      
     }
   }
   .connexion{

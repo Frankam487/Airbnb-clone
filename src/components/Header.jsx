@@ -3,10 +3,10 @@ const Header = () => {
     <div className="header">
       <img src="/download.png" alt="" />
       <div className="logement">
-        <li>
+        <li className="loge">
           <a href="">Logement</a>
         </li>
-        <li>
+        <li className="loge2">
           <a href="">Experiences</a>
         </li>
       </div>

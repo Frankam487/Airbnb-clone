@@ -1,0 +1,129 @@
+// .categories{
+
+//   position: relative;
+//   display: grid;
+//   grid-template-columns: 35% 10% 10% 40% 5%;
+//   gap: 1rem;
+//   margin-top: 4rem;
+//   align-items: center;
+//   transform: translate(50%, -50%);
+//   width: 50%;
+//   padding: 12px;
+//   border-radius: 20px;
+//   border: 1px solid rgba(32, 29, 29, 0.58);
+//   .arrive, .depart, .voyageurs {
+//     align-items: center;
+//     gap: 2rem;
+//     border-left: 1px solid rgb(117, 109, 109);
+//   }
+//   .voyageurs{
+//     a{
+//       font-size: 1.3rem;
+//       padding: 10px;
+//       float: right;
+//       background: red;
+//       border-radius: 50%;
+//     }
+//   }
+  
+// }
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  max-width: 800px;
+  margin: auto;
+transform: translate(50%, -50%);
+  .destination,
+  .arrive,
+  .depart,
+  .voyageurs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 15px;
+    text-align: center;
+
+    h4 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #222;
+      margin-bottom: 5px;
+    }
+
+    h6 {
+      font-size: 12px;
+      font-weight: 400;
+      color: #717171;
+    }
+
+    input {
+      border: none;
+      outline: none;
+      background: transparent;
+      font-size: 14px;
+      color: #333;
+      padding: 5px;
+      width: 100%;
+      text-align: center;
+
+      &::placeholder {
+        color: #b0b0b0;
+      }
+    }
+  }
+
+  .voyageurs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+    input {
+      flex: 1;
+    }
+
+    a {
+      background: #ff385c;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+  }
+
+  // Responsive
+  @media (max-width: 768px) {
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 100%;
+
+    .destination,
+    .arrive,
+    .depart,
+    .voyageurs {
+      width: 100%;
+      padding: 10px 0;
+    }
+
+    .voyageurs {
+      justify-content: space-between;
+
+      a {
+        margin-left: 0;
+      }
+    }
+  }
+}
