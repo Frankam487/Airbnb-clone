@@ -7,6 +7,10 @@ const Home = () => {
     <div>
       <Caroussel />
       <CardCarousel />
+      <div className="affiche">
+        <h3>Poursuivez l'exploration des logements avec piscine</h3>
+        <button>Afficher Plus</button>
+      </div>
     </div>
   );
 };
