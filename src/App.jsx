@@ -1,4 +1,5 @@
 import Affiche from "./components/Affiche";
+import BasFooter from "./components/BasFooter";
 import Categories from "./components/Categories";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -11,7 +12,8 @@ const App = () => {
       <Header />
       <Categories />
       <Home />
-      <Footer/>
+      <Footer />
+      <BasFooter/>
     </div>
   );
 };
