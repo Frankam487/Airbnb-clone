@@ -1,5 +1,6 @@
 import Affiche from "./components/Affiche";
 import Categories from "./components/Categories";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
 
@@ -10,7 +11,7 @@ const App = () => {
       <Header />
       <Categories />
       <Home />
-      
+      <Footer/>
     </div>
   );
 };
