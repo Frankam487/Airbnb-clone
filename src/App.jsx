@@ -1,5 +1,6 @@
 import Categories from "./components/Categories";
 import Header from "./components/Header";
+import Home from "./components/Home";
 
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div className=''>
       <Header />
       <Categories />
+      <Home />
     </div>
   );
 };

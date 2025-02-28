@@ -17,10 +17,10 @@ const Categories = () => {
       <div className="voyageurs">
         <h4>Voyageurs</h4>
         <input type="text" placeholder="Ajouter des voyages" />
+      </div>
         <a href="">
           <i className="fas fa-search"></i>
         </a>
-      </div>
     </div>
   );
 };
