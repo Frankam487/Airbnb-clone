@@ -8,6 +8,11 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+@mixin childCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 input {
   border: none;
   border-radius: 12px;
