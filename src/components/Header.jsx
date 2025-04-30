@@ -1,5 +1,9 @@
 const Header = () => {
   return (
+    <>
+      <div className="search">
+        <input type="search" placeholder="Rechercher" />
+      </div>
     <div className="header">
       <img src="/download.png" alt="" />
       <div className="logement">
@@ -30,6 +34,7 @@ const Header = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
